@@ -1,3 +1,3 @@
-# wdd230
+# WDD230 Web fronted Develompment
 
-BYU Idaho 2023 spring course 
+BYU Idaho 2023 spring course repository  
