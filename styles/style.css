@@ -5,7 +5,7 @@
 }
 body {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     margin: 0 auto;
 }
 header, footer, main {
