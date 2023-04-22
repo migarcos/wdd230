@@ -1,10 +1,9 @@
-let lastupd = new Date();
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified
+let dayData = new Date(document.lastModified);
 
-const mySuperDuperDate = new Date(document.lastModified);
-const mySuperDuperYear = mySuperDuperDate.getFullYear();
-const mySuperDuperHours = ('0' + mySuperDuperDate.getHours()).slice(-2);
-const mySuperDuperMinutes = ('0' + mySuperDuperDate.getMinutes()).slice(-2);
-const mySuperDuperSeconds = ('0' + mySuperDuperDate.getSeconds()).slice(-2);
+let fulldate = `${dayData.getMonth()+1}/${dayData.getDate()}/${dayData.getFullYear()}`;
+let hourDate = `${dayData.getHours()}:${('0'+ dayData.getMinutes()).slice(-2)}:${('0'+ dayData.getSeconds()).slice(-2)}`
+let otherDate = `${fulldate} ${hourDate}`;
 
-// document.getElementById('copyrightYear').innerHTML = mySuperDuperYear
-document.getElementById('lastUpdate').innerHTML = `${mySuperDuperDate.getDate()}/${mySuperDuperDate.getMonth()}/${mySuperDuperDate.getFullYear()} ${mySuperDuperHours}:${mySuperDuperMinutes}:${mySuperDuperSeconds}`
+document.querySelector('#copyYear').innerHTML = dayData.getFullYear();
+document.getElementById('lastUpdate').innerHTML = otherDate;
