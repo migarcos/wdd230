@@ -1,0 +1,108 @@
+/* http://paletton.com/#uid=35v0t0kFSoorPz0B5tILijFRke2 */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Raleway:wght@100&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    font-size: 0.8rem;
+    /* border: orange 2px solid; */
+}
+header {
+    text-align: center;
+    width: auto;
+    background-color: #92001D;
+    /* margin: 0 auto; */
+    padding: 0.5rem;
+    color: #fde10e;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Bruno Ace', cursive;
+    border-bottom: 2px solid  #000;
+    border-top: 2px solid  #000;
+}
+header h1, h2 {
+    font-size: 1em;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+main {
+    /* border: dotted 1px red; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer {
+    background-color: #680014;
+    width: auto;
+    color: #fff;
+    padding: 1rem;
+    /* margin: 0 auto;  */
+    text-align: center;
+    border-top: #000 solid 2px;
+}
+article {
+    border: solid gray 1px;
+    border-radius: 1rem 1rem 0 0;
+    margin: 0.5rem auto;
+    background-color: rgb(238, 238, 238);
+    max-width: 350px;
+    min-width: 250px;
+    box-shadow: 0 0 10px #000;
+    /* padding: 1rem;  */
+}
+article h2 {
+    margin: 0 auto;
+    width: auto;
+    background-color: #006849;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+article img {
+    width: 100%;
+    border: solid #004A34 2px;
+}
+article p{
+    padding: 0.5em 1em;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:visited {
+    color: darkblue;
+}
+
+@media screen and (min-width: 32rem) {
+    * {
+        font-size: 1rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article:nth-child(3) {
+        grid-column: 1/3;
+        max-width: 95%;
+    }
+    header h1, h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    article {
+        margin: 1rem 2rem;
+        max-width: 400px;
+
+    }
+    article:nth-child(3) {
+        grid-column: 3/4;
+    }
+}
