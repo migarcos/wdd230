@@ -1,0 +1,154 @@
+/*  https://colorhunt.co/palette/0a4d6808839505bfdb00ffca 
+    https://colorhunt.co/palette/243763ff6e31ffebb7ad8e70
+    */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+/* font-family: 'Oxygen', sans-serif; */
+/* font-family: 'Nanum Myeongjo', serif; */
+:root {
+    --primary-color: #151f38;
+    --secondary-color: #dc4618;
+    --accent1-color: #ffebb7;
+    --accent2-color: #ad8e70;
+}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+ }
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color:#e2e1e1fa;
+}
+header, nav, main, footer {
+    max-width: 50rem; 
+}
+header {
+    display: flex;
+    /* border: dotted 2px coral; */
+    padding: 1rem;    
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    color:#0A4D68;
+    background-color: #fff;
+}
+header h1 {
+    text-align: center;
+    font-size: 1.5em;
+    min-width: 136px;
+}
+header img {
+    width: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;    
+}
+
+nav {
+    /*border-bottom: solid 5px #243763;  */
+    background-color: #fff;
+}
+nav ul {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+nav li {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center; 
+    margin: 2px 2px;   
+}
+#actual, nav li:hover {
+    background-color: var(--secondary-color);/*#FF6E31; */   
+}
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+    
+}
+main {
+    font-family: 'Nanum Myeongjo', serif; 
+    padding:1rem;
+    background: #ffebb7ef;
+    text-align: center;
+}
+article {
+    padding: 1em;
+    border: rgba(173, 142, 112, 0.6) solid 1px;
+    margin: 0 auto 1em auto;
+}
+article h3 {
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+article p{
+    text-align: justify;
+}
+footer {
+    display: flex;
+    align-content: center;
+    background-color: var(--primary-color);/*#FF6E31; */
+    color: #fff;
+    padding: 2em;
+}
+table {
+    width: 100%;
+    margin: 1rem auto;
+    border: solid white 5px;
+    font-size: 0.8rem;
+}
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+}
+.accent2 {
+    background-color: var(--accent2-color);
+}
+.image {
+    width: 80vw;
+}
+
+@media only screen and (min-width:37.5rem) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header img {
+        width: 7rem;
+    }
+    nav ul {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    nav li {
+        padding: 1rem;
+        border: white solid 2px;
+        border-radius: 1rem 1rem 0 0;
+        background-color: #243763;
+        text-align: center;
+        border-bottom: solid 1px #243763;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+    main {
+        padding:3rem;
+    }
+    .image {
+        max-width: 40rem;
+    }
+}
