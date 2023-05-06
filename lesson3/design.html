@@ -16,28 +16,26 @@
         <img src="images/logo.png" alt="chamber logo">
         <h1> CAUCA CHAMBER OF COMMERCE </h1> 
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">PURPOSE</a></li>
-            <li><a href="target-audience.htm">AUDIENCE</a></li>
-            <li id="actual"><a href="design.html">SCHEME</a></li>
-        </ul>
+    <nav class="fontPTsans">
+        <a href="index.html">PURPOSE</a>
+        <a href="target-audience.htm">AUDIENCE</a>
+        <a href="design.html" id="actual">SCHEME</a>
     </nav>
     <main>
-        <article style="background-color: #ffffff;">
+        <article class="whiteBG">
             <h3>TYPOGRAPHY</h3>
-            <h1 style="font-family: 'PT Sans', sans-serif; font-size: 1.5em;">Heading H1 Title: PT Sans</h1>
-            <p style="font-family: 'Nanum Myeongjo', serif; ">Paragraf font: Nanum Myeongjo </p>
-            <br><p style="font-family: 'Oxygen', sans-serif; ">General Purpose: Oxygen</p>
+            <h1 class="fontNanum">Heading H1 Title: Nanum Myeongjo</h1>
+            <p>Paragraf font: Oxygen </p>
+            <br><p class="fontPTsans">General Purpose: PT Sans</p>
         </article>
-        <article style="background-color: #ffffff;">
+        <article class="whiteBG">
             <h3>COLOR SCHEME</h3>
             <table>
                 <tr>
-                    <td>Primary</td>
-                    <td>Secondary</td>
-                    <td>Accent 1</td>
-                    <td>Accent 2</td>
+                    <td>Primary<br>#151f38</td>
+                    <td>Secondary<br>#dc4618</td>
+                    <td>Accent 1<br>#ffebb7</td>
+                    <td>Accent 2<br>#ad8e70</td>
                 </tr>
                 <tr>
                     <td class="primary"><br></td>
@@ -49,7 +47,8 @@
         </article>
     </main>
     <footer>
-        <p>&copy; Miguel Arcos Salazar - Lastupdate:</p> 
+        <p>&copy;<span id="copyYear"></span> Miguel Arcos Salazar - Lastupdate:<span id="lastUpdate"></span></p> 
     </footer>
+    <script src="scripts/code.js"></script>
 </body>
 </html>
