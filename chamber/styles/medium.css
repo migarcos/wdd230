@@ -1,0 +1,59 @@
+@media only screen and (min-width:38.5rem) {
+    header nav {
+        order:-2;
+        width: 50%;
+    }
+    header nav ul {
+        display: flex;
+        /* border: white dotted 1px; */
+    }
+    header nav li {
+        /* border: red dotted 1px; */
+        padding: 0;
+    }
+    header nav button {
+        display: none;
+    }
+    header nav a {
+        padding: 0.5em 0.4em;   
+        font-size: 0.8rem;
+        border: 1px solid rgba(252, 252, 252, 0.1);
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .webname {
+        width: 25%;
+        order:-3;
+    }
+    header .social {
+        order:-1;
+    }
+    header .dayinfo{
+        order: 0;
+    }
+    header .active {
+        background-color: var(--primary-color);
+        font-weight: bold;
+    }
+    .footerSite {
+        display: grid;
+        grid-template-columns: 2rem 5fr 2fr 3fr 2rem;
+    }
+    #siteInfo {
+        grid-column: 2/4;
+    }
+    .footerLogo {
+        float: left;
+    }
+    #siteContact {
+        grid-column: 4/5;
+    }
+
+    .footerBase {
+        display:flex;
+        justify-content: center;
+    }
+    .footerBase p {
+        padding: 5px 5px;
+    }
+}

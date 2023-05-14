@@ -7,11 +7,13 @@
     --secondary-color: #dc4618;
     --accent1-color: #ffebb7;
     --accent2-color: #ad8e70;
+    --variation-color: #FF9A39;
 }
 * {
     box-sizing: border-box;
     margin:0;
     padding:0;
+    font-family: 'Oxygen', serif;
 }
 header, main, footer {
     width: 100%;
@@ -36,9 +38,11 @@ header img {
 header h1 {
     font-size: 1.2rem;
     padding: 0.5em 0 0 0;
+    font-family: 'Nanum Myeongjo', serif;  
 }
 header h2 {
     font-size: 0.8rem;
+    font-family: 'Nanum Myeongjo', serif;  
 }
 header ul {
     display: none;
@@ -53,9 +57,7 @@ header button {
 
 .webname {
      /* display: none; MENU */
-    width: 50%;
-    font-family: 'Nanum Myeongjo', serif;
-       
+    width: 50%;     
 }
 
 header ul.open {
@@ -79,7 +81,7 @@ header ul a{
     color: #fff;
     font-family: 'Oxygen', sans-serif;
     font-size: 1rem;
-    padding: 0.5rem auto;
+    padding: 0.5rem 0rem;
     border-top: solid 1px #fff;
     width:100%;
     text-align: center;
@@ -109,23 +111,50 @@ header ul a:hover {
     width: auto;
     text-align: center;
     text-decoration: none;
-    margin: 2px;
+    margin: 1px;
     border-radius: 5px;
 }
 .fa:hover {
     opacity: 0.7;
 }
-.fa-facebook {
-background: #3B5998;
-color: white;
-padding: 0.5rem 0.7rem;
-}
+.fa-facebook {background: #3B5998;color: white;padding: 0.5rem 0.7rem;}
 .fa-twitter {
 background: #55ACEE;
 color: white;
 }
-
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.orderHeader {
+    order: unset;
+}
 .showOff {
     display: none;
 }
 
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 2rem 1rem;
+}
+.footerLogo {
+    width: 120px;
+    border-radius: 50%;
+}
+.footerSite article {
+    margin: 1em 0;
+}
+.footerSiteName {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+}
+.footerBase {
+    border-top: #ffffff65 1px solid;
+    font-size: 0.8em;
+}

@@ -7,6 +7,8 @@
     <title>CAUCA CHAMBER OF COMMERCE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
@@ -15,26 +17,48 @@
             <h1>CAUCA</h1>
             <h2>Chamber of Commerce</h2>
         </section>
-        <section id="socialHeader" class="social">
+        <section id="socialHeader" class="social orderHeader">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
         </section>
-        <nav id="headerNav">
+        <nav id="headerNav" >
             <button id="menuBtn">&#9776;</button>
             <ul id="menuItems">
-                <li class="active"><a href="">HOME</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">LOCATION</a></li>
+                <li class="active"><a href="">DISCOVERY</a></li>
+                <li><a href="">DIRECTORY</a></li>
+                <li><a href="">JOIN</a></li>
                 <li><a href="">CONTACT</a></li>
-                <li><a href="">BLOG</a></li>
             </ul>
         </nav>        
         <section id="dayInfo" class="dayInfo">
-            Thursday, May 11 2023
+            
         </section>
     </header>
     <main>MAIN</main>
-    <footer>FOOTER</footer>
+    <footer>
+        <section class="footerSite">
+            <article id="siteInfo">
+                <!-- <p id="logoFooter"></p> -->
+                <img src="images/logo.png" alt="Cauca Chamber Logo" class="footerLogo">
+                <p class="footerSiteName">Cauca Chamber of Commerce</p>
+                <p>Cra 7 #4-32</p>
+                <p>Popayán, Cauca, Colombia</p>
+            </article>
+            <article id="siteContact">
+                <p>contact@caucacc.org</p>
+                <p>+57 333 222 1144</p>
+                <p><img src="https://cdn-icons-png.flaticon.com/128/854/854878.png" alt="map icons" width="5%"> Location Map</p>
+                <!-- <a href="https://www.flaticon.com/free-icons/map" title="map icons">Map icons created by Freepik - Flaticon</a> -->
+            </article>
+        </section>
+        <section class="footerBase">
+            <p>&copy;<span id="copyYear"></span> Cauca Chamber</p>
+            <p>Miguel Arcos</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="lastUpdate"></span></p>
+        </section>
+    </footer>
     <script src="scripts/chamber.js"></script>
 </body>
 </html>
