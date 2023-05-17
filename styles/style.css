@@ -60,9 +60,14 @@ section {
 }
 .content ul {
     list-style-type: none;
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.5);
 }
 .content li {
     margin: 10px 0px;
+    font-weight: bold;
+}
+.content span {
+    font-weight: bolder;
 }
 .content a:link, content a:visited {
     /* background-color: #0B2447;*/
