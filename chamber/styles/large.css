@@ -1,7 +1,43 @@
 @media only screen and (min-width:60rem) {
     header nav {
+        order:-2;
+        width: 50%;
+    }
+    header nav ul {
+        display: flex;
+        
+    }
+    header nav li {
+        
+        padding: 0;
+    }
+    header nav button {
+        display: none;
+    }
+    header nav a {
+        padding: 0.5em 0.4em;   
+        font-size: 0.8rem;
+        border: 1px solid rgba(252, 252, 252, 0.1);
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .webname {
+        width: 25%;
+        order:-3;
+    }
+    header .social {
+        order:-1;
+    }
+    header .dayinfo{
+        order: 0;
+    }
+    header .active {
+        background-color: var(--primary-color);
+        font-weight: bold;
+    } 
+    /* header nav {
         width: 40%;
-    }   
+    }    */
     main {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
