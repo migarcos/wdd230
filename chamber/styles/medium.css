@@ -63,6 +63,7 @@
         display: none;
     }
     #join {
+        display: block;
         grid-column: 1/4;
         grid-row: 4;
     }

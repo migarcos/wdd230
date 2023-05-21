@@ -14,13 +14,24 @@ x.onclick = toggleMenu;
 // Actual date
 const dayNames = ["Sunday", "Monday","Tuesday","wedneday","Thursday","Friday","Saturday"];
 const monthnames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-let dayInfo = new Date();
+let dayInfo = new Date();     // 'May 15, 2023 23:15:30'
 let dayName = dayNames[dayInfo.getDay()];
 let monthName = monthnames[dayInfo.getMonth()];
 let year = dayInfo.getFullYear;
 // let finalDate = dayName + ", " + dayData.getDate() + " " + monthName + ", " + dayData.getFullYear();
 let finalDate = `${dayName}, ${dayInfo.getDate()} ${monthName} ${dayInfo.getFullYear()}`;
 document.getElementById('dayInfo').innerHTML = finalDate;
+
+//banner
+const banner = document.querySelector("#banner");
+today = dayInfo.getDay();
+// console.log(today);
+if(today == 1 || today == 2){
+    banner.classList.toggle("showOn");
+}
+else {
+    banner.classList.toggle("showOff");
+}
 
 // Last update 
 let dayData = new Date(document.lastModified);
@@ -31,3 +42,4 @@ let otherDate = `${fulldate} ${hourDate}`;
 
 document.querySelector('#copyYear').innerHTML = dayData.getFullYear();
 document.getElementById('lastUpdate').innerHTML = otherDate;
+
