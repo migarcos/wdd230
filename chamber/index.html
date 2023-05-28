@@ -41,7 +41,8 @@
     <main>
         <section id="hero">
             <p>Welcome CAUCA Chamber!</p>
-            <img src="images/business_1280.jpg" alt="business_1280">     
+            <img src="images/wdd230-org.jpg" alt="wdd230 original" srcset="">
+            <!-- <img src="images/business_1280.jpg" alt="business_1280">    original  -->
             <a>Join Us</a>       
         </section>        
         <section id="events" class="spotlight">
@@ -52,11 +53,11 @@
         <section id="weather">
             <h3>WEATHER</h3>
             <img src="images/weather.png" alt="Weather icons created by Good Ware - Flaticon.com">
-            <h1> 28 °C</h1>
+            <h1><span  id="temperature">23</span>°C</h1>
             <p class="lweath">Wind Speed</p>
-            <p class="rweath">20 Km/h</p>
-            <p class="lweath">Humidity</p>
-            <p class="rweath">3%</p>
+            <p class="rweath"><span id="wspeed">2</span> Km/h</p>
+            <p class="lweath">Wind Chill</p>
+            <p class="rweath"><span id="wchill">N/A</span></p>
         </section>
         <section id="news">
             <h2 class="titleSection">NEWS</h2> 
@@ -113,5 +114,6 @@
         </section>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
