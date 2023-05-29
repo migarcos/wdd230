@@ -1,11 +1,14 @@
-let temperature = document.querySelector("#temperature").textContent;
-let wspeed = document.querySelector("#windspeed").textContent;
+let gradesC = document.getElementById("temperature").textContent;
+let wspeed = document.getElementById("wspeed").textContent;
+let gradesF = (gradesC * 9 / 5) + 32;
+let windchill = 0;
+wspeed = wspeed / 1.609;
 
-if (temperature <= 50 && wspeed > 3){
-    let windchill = 35.74 + (.6215 * temperature) - (35.75 * (wspeed ** .16)) + (.4275 * temperature * (speed ** .16));
-    document.querySelector("#wchill").innerHTML = Math.round(windchill);
+if (gradesF <= 50 && wspeed > 3){ 
+    windchill = 35.74 + (.6215 * gradesF) - (35.75 * (wspeed ** .16)) + (.4275 * gradesF * (wspeed ** .16));
+    document.getElementById("wchill").innerHTML = Math.round(windchill); //Math.round(windchill)
 }
 else {
-    let windchill = "N/A";
-    document.querySelector("#wchill").innerHTML = windchill;
+    windchill = "N/A";
+    document.getElementById("wchill").innerHTML = windchill;
 }
