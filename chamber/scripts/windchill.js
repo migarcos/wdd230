@@ -1,3 +1,4 @@
+// may 2023
 let gradesC = document.getElementById("temperature").textContent;
 let wspeed = document.getElementById("wspeed").textContent;
 let gradesF = (gradesC * 9 / 5) + 32;
