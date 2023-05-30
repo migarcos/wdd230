@@ -172,7 +172,7 @@ main section, main article {
 #hero {
     position: relative;
 }
-#hero > img {
+#hero picture > img {
     left: 0;
     top: 0;
     width: 100%;

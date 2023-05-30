@@ -41,9 +41,13 @@
     <main>
         <section id="hero">
             <p>Welcome CAUCA Chamber!</p>
-            <img src="images/wdd230-org.jpg" alt="wdd230 original" srcset="">
+            <picture class="heroImg">
+                <source media="(max-width: 612px)" srcset="images/wdd230-org250.jpg">
+                <source media="(max-width: 960px)" srcset="images/wdd230-org500.jpg">
+                <img src="images/wdd230-org800.jpg" alt="wdd230 original">
+            </picture>            
             <!-- <img src="images/business_1280.jpg" alt="business_1280">    original  -->
-            <a>Join Us</a>       
+            <a>Join Us</a>      
         </section>        
         <section id="events" class="spotlight">
             <h3>TEAM WORK CONFERENCE</h3>
