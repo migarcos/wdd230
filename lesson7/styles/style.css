@@ -1,7 +1,7 @@
 header {
     margin: 0 auto;
     width: 500px;
-    border: 1px solid darkblue;
+    
     text-align: center;
 }
 header > p {
@@ -10,3 +10,15 @@ header > p {
 header > img{
     width: 100%;
 }
+article img[data-src] {
+    filter: blur(0.2em);
+}
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: 1px solid darkblue;
+    padding: 1rem;
+    margin: 5px;
+}
+  

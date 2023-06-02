@@ -1,3 +1,26 @@
+const imagesToLoad = document.querySelectorAll("img[data-src]")
+
+let callback = (entries, observer) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            let elem = entry.target;
+      
+            if (entry.intersectionRatio >= 0.75) {
+              intersectionCounter++;
+            }
+        }
+    });
+};
+  
+let options = {
+    root: document.querySelector("#scrollArea"),
+    rootMargin: "0px",
+    threshold: 1.0,
+};
+  
+let observer = new IntersectionObserver(callback, options);
+  
+
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
@@ -12,7 +35,7 @@ if ("IntersectionObserver" in window) {
     });
 } else {
     imagesToLoad.forEach((img) => {
-    loadImages(img);
+        loadImages(img);
     });
 }
   
