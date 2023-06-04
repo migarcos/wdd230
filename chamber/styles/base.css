@@ -298,6 +298,9 @@ main article.discover_image > img {
 main article.discover_paragraph {
     background-color:rgb(255, 255, 255);
 }
+main article.discover_paragraph > p {
+    margin: 1rem 0;
+}
 /* FOOTER */
 footer {
     text-align: center;
