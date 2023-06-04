@@ -161,6 +161,7 @@ main section, main article {
     padding: 0.5em;
     margin: 0.3em;
 }
+
 #events > h3 {
     border: 2px solid var(--secondary-color);
     margin-bottom: 5px;
@@ -284,6 +285,19 @@ main section, main article {
     margin: 5px;
 }
 
+main section.discover {
+    padding: 1px;
+    background-color:rgba(255, 153, 57, 0.495);
+}
+main article.discover_image > img {
+    width: 100%;
+    margin: 2px;
+    height: 100%;
+    object-fit: cover;
+}
+main article.discover_paragraph {
+    background-color:rgb(255, 255, 255);
+}
 /* FOOTER */
 footer {
     text-align: center;

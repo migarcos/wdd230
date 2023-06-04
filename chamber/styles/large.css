@@ -45,6 +45,19 @@
     main section {
         height: 200px;
     }
+    main.discover {
+        display: block;
+    }
+    main.discover > section {
+        width: 700px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    main.discover > img {
+        width: 50%;
+    }
+
     #hero {
         grid-column: 2/3;
         grid-row: 1/3;
