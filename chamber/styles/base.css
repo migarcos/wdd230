@@ -301,6 +301,18 @@ main article.discover_paragraph {
 main article.discover_paragraph > p {
     margin: 1rem 0;
 }
+
+main article > img[data-src] {
+    filter: blur(0.2em);
+}
+  
+main article > img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: 1px solid darkblue;
+    padding: 1rem;
+    margin: 5px;
+}
 /* FOOTER */
 footer {
     text-align: center;
