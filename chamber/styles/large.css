@@ -49,11 +49,17 @@
         display: block;
     }
     main.discover > section {
-        width: 700px;
+        display: flex;
+        width: 1100px;
         height: auto;
         margin: 0 auto;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
+    main article.discover_paragraph  {
+        width: 500px;
+    }
+
+    .hover:hover {box-shadow: 0 0 30px #d3932bdf;}
 
     #hero {
         grid-column: 2/3;

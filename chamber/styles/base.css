@@ -286,12 +286,12 @@ main section, main article {
 }
 
 main section.discover {
-    padding: 1px;
+    padding: 0px;
     background-color:rgba(255, 153, 57, 0.495);
 }
 main article.discover_image > img {
     width: 100%;
-    margin: 2px;
+    margin: 0px;
     height: 100%;
     object-fit: cover;
 }
@@ -309,9 +309,9 @@ main article > img[data-src] {
 main article > img {
     filter: blur(0em);
     transition: filter 0.5s;
-    border: 1px solid darkblue;
+    /* border: 1px solid darkblue;
     padding: 1rem;
-    margin: 5px;
+    margin: 5px; */
 }
 /* FOOTER */
 footer {
