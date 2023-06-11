@@ -22,6 +22,10 @@ let year = dayInfo.getFullYear;
 let finalDate = `${dayName}, ${dayInfo.getDate()} ${monthName} ${dayInfo.getFullYear()}`;
 document.getElementById('dayInfo').innerHTML = finalDate;
 
+// *****  fill the value in the form fdate input   *****
+document.getElementById('fdate').setAttribute("value",dayInfo);
+
+
 //banner
 const banner = document.querySelector("#banner");
 today = dayInfo.getDay();

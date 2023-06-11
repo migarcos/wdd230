@@ -94,4 +94,10 @@
     #locationIcon {
         width: 2rem;
     }
+
+    /* ----------    form  ------------ */
+    main form, section.freturn {
+        grid-column: 2;
+        min-width: 600px;
+    }
 }
