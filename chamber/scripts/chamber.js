@@ -23,7 +23,11 @@ let finalDate = `${dayName}, ${dayInfo.getDate()} ${monthName} ${dayInfo.getFull
 document.getElementById('dayInfo').innerHTML = finalDate;
 
 // *****  fill the value in the form fdate input   *****
-document.getElementById('fdate').setAttribute("value",dayInfo);
+let idCheck = document.getElementById('fdate');
+if (idCheck != null) {
+    document.getElementById('fdate').setAttribute("value",dayInfo);
+}
+
 
 
 //banner

@@ -287,7 +287,14 @@ main section, main article {
 
 main section.discover {
     padding: 0px;
-    background-color:rgba(255, 153, 57, 0.495);
+    background-color: #ffffff00; /*rgba(255, 153, 57, 0.495)*/
+    border: none;
+}
+main section.discover > article {
+    border: none;
+}
+main article.discover_image {
+    background-color: none;
 }
 main article.discover_image > img {
     width: 100%;
@@ -367,6 +374,17 @@ section.freturn {
     font-weight: bolder;
     text-align: center;
 }
+
+main form input:required {
+    border-left: 3px orange solid;
+}
+main form input:invalid {
+    background-color: #ff000035;
+}
+
+/* main form input:valid { border-bottom: #151f38; border-left: green 5px solid;} */
+
+
 /* ----------------------- FOOTER ----------------------- */
 footer {
     text-align: center;
