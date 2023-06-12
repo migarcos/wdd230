@@ -45,10 +45,10 @@
                 <legend>Personal Data</legend>
                 <label class="top">First Name * <input type="text" name="fname" id="ffname" required></label>
                 <label class="top">Last Name * <input type="text" name="lname" id="flname" required></label>
-                <label class="top">Business position <input type="text" name="position" id="fposition" minlength="7" pattern="[a-zA-Z\s-]"></label>
+                
                 <label class="top">email <input type="email" name="email" id="femail" placeholder="usrmail@webname.com"></label>
                 <label class="top">Cell number * <input type="tel" name="phone" id="fcel" required placeholder="XXXYYYZZZZ"  pattern="[0-9]{10,}"></label>
-                <label class="top">Business name * <input type="text" name="bname" id="fbusname" required></label>
+                
                 <input type="hidden" id="fdate" name="fdate">
             </fieldset>
             <fieldset>
@@ -60,7 +60,10 @@
             </fieldset>
 
             <fieldset>
+                
                 <legend>Business description</legend>
+                <label class="top">Business name * <input type="text" name="bname" id="fbusname" required></label>
+                <label class="top">Business position <input type="text" name="position" id="fposition" minlength="7" pattern="[a-zA-Z\s-]"></label>
                 <label class="top"><textarea name="bdescrip" placeholder="A few words description" rows="4"> </textarea></label>
             </fieldset>
             
