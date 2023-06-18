@@ -1,0 +1,93 @@
+{
+    "companies":
+    [
+        {
+            "name" : "Banco Mundo Mujer",
+            "address": "CARRERA 11 #5-56",
+            "phoneNumber": "6028399900",
+            "websiteUrl": "https://www.bmm.com.co/",
+            "image": "bmm.jpg",
+            "membershipLevel": "gold"
+        },
+        {
+            "name" :"Asmet Salud Eps",
+            "address": "CARRERA 4 #18N-46",
+            "phoneNumber": "6028274242",
+            "websiteUrl": "http://www.asmetsalud.com/",
+            "image": "asmet.png",
+            "membershipLevel": "nonprofit"
+        },
+        {
+            "name" :"Icobandas",
+            "address": "Carrera 9 # 64N-99",
+            "phoneNumber": "3160278053",
+            "websiteUrl": "https://www.icobandas.com.co/",
+            "image": "icobandas.jpg",
+            "membershipLevel": "silver"
+        },
+        {
+            "name" :"Systemplus",
+            "address": "Calle 4 #2-16",
+            "phoneNumber": "6028386464",
+            "websiteUrl": "https://systemplusdecolombia.com/",
+            "image": "systemplus.jpg",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name" :"CAFICAUCA",
+            "address": "Cra 9 #68N-04",
+            "phoneNumber": "6028249878",
+            "websiteUrl": "http://www.caficauca.com/",
+            "image": "caficauca.png",
+            "membershipLevel": "silver"
+        },
+        {
+            "name" :"GRUPO DAO",
+            "address": "CALLE 67N #9-59",
+            "phoneNumber": "6028373035",
+            "websiteUrl": "https://www.dao.com.co/",
+            "image": "dao.png",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name" :"Comfacauca",
+            "address": "Calle 2N #6A-54",
+            "phoneNumber": "018000912222",
+            "websiteUrl": "https://www.comfacauca.com/",
+            "image": "comfacauca.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name" :"Deposito Rengifo",
+            "address": "CARRERA 3 #9-59",
+            "phoneNumber": "6028241944",
+            "websiteUrl": "https://fb.com/naborrengifo",
+            "image": "naborr.jpg",
+            "membershipLevel": "silver"
+        },
+        {
+            "name" :"CyH Ingenieria",
+            "address": "CRA 6A #3-45",
+            "phoneNumber": "3004283160",
+            "websiteUrl": "https://cyhingenieria.com",
+            "image": "cyhing.jpg",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name" :"Johana Cruz Stethic",
+            "address": "cra 9 N0. 5-82",
+            "phoneNumber": "311 3788169",
+            "websiteUrl": "https://fb.com/JohanaCruzbelleza",
+            "image": "johanac.jpg",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name" :"GRACOL",
+            "address": "Carrera 17 #19N-238",
+            "phoneNumber": "(602) 8353550",
+            "websiteUrl": "https://www.gracolsas.com/",
+            "image": "gracol.jpg",
+            "membershipLevel": "silver"
+        }
+    ]
+}    

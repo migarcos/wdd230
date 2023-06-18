@@ -30,7 +30,7 @@ if (idCheck != null) {
 
 
 
-//banner
+// ------------   BANNER   ------------
 const banner = document.querySelector("#banner");
 today = dayInfo.getDay();
 // console.log(today);
