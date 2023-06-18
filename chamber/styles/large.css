@@ -100,4 +100,8 @@
         grid-column: 2;
         min-width: 600px;
     }
+    main section.list article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+    }
 }

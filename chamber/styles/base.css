@@ -382,7 +382,7 @@ main form input:invalid {
     background-color: #ff000035;
 }
 
-/* ---DIRECTORY---- */
+/* ---             DIRECTORY           ---- */
 main.directory {
     width: auto;
     display: block;
@@ -401,32 +401,42 @@ main nav > button {
 }
 main section.grid {
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
     width: auto;
     height: auto;
     background-color: #fff;
     border: none;
 }
-
-main section.list {
-    display: flex;
-    flex-direction: column;
-}
-main section.list image {
-    display: none;
-}
-main section.list article:nth-child(even) {
-    background-color: var(--variation-color);
-}
-main.directory article{
+main section.grid article{
     text-align: center;
     /* width: 300px; */
     height: 250px;
     background-color: #fff;
     max-width: 450px;
     box-shadow: 7px 7px lightgray;
+}
+
+main section.list {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #fff;
+}
+main section.list img {
+    display: none;
+}
+main section.list article {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main section.list article:nth-child(even) {
+    background-color: #dc461846;
+}
+main section.list h3 {
+    font-size: 1em;
+    margin: 0;
 }
 main.directory article >p{
     font-size: 0.9rem;

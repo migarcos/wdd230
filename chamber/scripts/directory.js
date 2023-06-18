@@ -1,7 +1,7 @@
 const info = './json/companies.json';
 
 const showCompanies = (companies) => {
-    const cards = document.querySelector('section.cards');
+    const cards = document.querySelector('section#cards');
 
     companies.forEach((company) => {
         let card = document.createElement('article');

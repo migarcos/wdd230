@@ -89,6 +89,11 @@
         min-width: 500px;
     }
 
+    main section.list article {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
 
     /* FOOTER */
     .footerSite {
