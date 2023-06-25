@@ -36,12 +36,12 @@ function displayResults(weatherData) {
     windSpeed.innerHTML = `<strong>${weatherData.wind.speed} km/h</strong>`;
     windChillCalc(weatherData.main.temp, weatherData.wind.speed);
     
-    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@4x.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    // weatherIcon.setAttribute('width', '100px');
+    //weatherIcon.setAttribute('width', '150px');
     captionDesc.textContent = desc;
     captionDesc.style.textTransform = "capitalize";
 }
