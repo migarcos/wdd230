@@ -57,12 +57,19 @@
         </section>
         <section id="weather">
             <h3>WEATHER</h3>
-            <img src="images/weather.png" alt="Weather icons created by Good Ware - Flaticon.com">
-            <h1><span  id="temperature">5</span>°C</h1>
+            
+            <!-- img src="images/weather.png" alt="Weather icons created by Good Ware - Flaticon.com"-->
+            <figure>
+                <figcaption></figcaption>
+                <img id="weather-icon" src="" alt="">                
+            </figure>
+                       
+            <h1><span id="city"></span><br><span id="temperature"></span>°C</h1>
             <p class="lweath">Wind Speed</p>
-            <p class="rweath"><span id="wspeed">10</span> Km/h</p>
+            <p class="rweath"><span id="wspeed"></span> Km/h</p>
             <p class="lweath">Wind Chill</p>
             <p class="rweath"><span id="wchill"></span></p>
+            <p id="provider">api.openweathermap.org</p>
         </section>
         <section id="news">
             <h2 class="titleSection">NEWS</h2> 
