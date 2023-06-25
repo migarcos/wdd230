@@ -41,7 +41,7 @@ function displayResults(weatherData) {
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    weatherIcon.setAttribute('width', '100px');
+    // weatherIcon.setAttribute('width', '100px');
     captionDesc.textContent = desc;
     captionDesc.style.textTransform = "capitalize";
 }
