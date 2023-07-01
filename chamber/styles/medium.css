@@ -39,7 +39,7 @@
     */
     /* MAIN */
     main {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(3, 1fr);
         padding: 1rem 1rem;
     }
@@ -94,6 +94,7 @@
         grid-template-columns: 1fr 2fr;
     }
 
+    .hover:hover {box-shadow: 0 2px 30px #d3932bdf;}
 
     /* FOOTER */
     .footerSite {

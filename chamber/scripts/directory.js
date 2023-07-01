@@ -16,8 +16,13 @@ const showCompanies = (companies) => {
         phone.textContent = `${company.phoneNumber}`;
         website.textContent = `${company.websiteUrl}`;
 
+        website.setAttribute('href',company.websiteUrl);
+        website.setAttribute('target','_blank')
+
+
         portrait.setAttribute('src','images/directory/'+company.image);
         portrait.setAttribute('height','80');
+        portrait.setAttribute('alt',company.name )
 
         card.appendChild(portrait);
         card.appendChild(h2);

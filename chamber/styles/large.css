@@ -59,7 +59,7 @@
         width: 500px;
     }
 
-    .hover:hover {box-shadow: 0 0 30px #d3932bdf;}
+    
 
     #hero {
         grid-column: 2/3;
