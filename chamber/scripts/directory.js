@@ -2,7 +2,7 @@ const info = './json/companies.json';
 
 const showCompanies = (companies) => {
     const cards = document.querySelector('section#cards');
-
+    
     companies.forEach((company) => {
         let card = document.createElement('article');
         let h2 = document.createElement('h3');
@@ -37,8 +37,6 @@ const showCompanies = (companies) => {
 async function getCompanies() {
     const response = await fetch(info);
     const data = await response.json();
-    //console.log(data.companies);
-    
     
     showCompanies(data.companies);
 }

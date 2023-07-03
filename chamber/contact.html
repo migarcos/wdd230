@@ -29,11 +29,11 @@
         <nav id="headerNav" >
             <button id="menuBtn">&#9776;</button>
             <ul id="menuItems">
-                <li><a class="active">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="discover.html">DISCOVER</a></li>
                 <li><a href="directory.html">DIRECTORY</a></li>
                 <li><a href="join.html">JOIN</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.html"  class="active">CONTACT</a></li>
             </ul>
         </nav>        
         <section id="dayInfo" class="dayInfo">
@@ -41,50 +41,23 @@
         </section>
     </header>
     <main>
-        <section id="hero">
-            <p>Welcome CAUCA Chamber!</p>
-            <picture class="heroImg"> 
-                <source media="(max-width: 612px)" srcset="images/popcentral250.jpg">
-                <source media="(max-width: 960px)" srcset="images/popcentral500.jpg">
-                <img src="images/popcentral800.jpg" alt="Popayán central park"> <!-- wdd230-org800.jpg wdd230 original-->
-            </picture>            
-            <!-- <img src="images/business_1280.jpg" alt="business_1280">    original  -->
-            <a href="join.html">Join Us</a>      
-        </section>        
-        <section id="events" class="spotlight">
-            <h3>TEAM WORK CONFERENCE</h3>
-            <img src="images/teamwork_200.png" alt="teamwork">
-            <p><a href="#">Learn more ...</a></p>
-        </section>
-        <section id="weather">
-            <h3>WEATHER</h3>
-            
-            <!-- img src="images/weather.png" alt="Weather icons created by Good Ware - Flaticon.com"-->
+        <section class="contact">
             <figure>
-                <figcaption></figcaption>
-                <img id="weather-icon" src="" alt="">                
+                <img src="images/popayan/clock_tower_header.jpg" alt="">
             </figure>
-                       
-            <h2><span id="city"></span><br><span id="temperature"></span>°C</h2>
-            <p class="lweath">Wind Speed</p>
-            <p class="rweath"><span id="wspeed"></span> Km/h</p>
-            <p class="lweath">Wind Chill</p>
-            <p class="rweath"><span id="wchill"></span></p>
-            <p id="provider">api.openweathermap.org</p>
         </section>
-        <section id="news">
-            <h2 class="titleSection">NEWS</h2> 
-            <p><strong>Fashon Week return in september.</strong> For Ana Fernanda Muñoz Otoya, Executive President of the Cauca Chamber of Commerce, the annual Popayán Fashion Weekend seeks to turn the capital of Cauca into a business center for the fashion system sector of international stature, projecting the potential of the department and contributing to the commercial dynamics of the health, beauty and fashion sectors</p>
-            
-
+        <section>
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <label for="">Nombre *<input type="text" name="" id=""></label>
+                    <label class="contact">Email *<input type="email" name="" id=""> </label>                    
+                    <label for=""></label>
+                    <label for=""><textarea name="" id="" cols="30" rows="10"></textarea></label>
+                </fieldset>
+                <input type="button" value="SEND">
+            </form>
         </section>
-        <section id="join">
-            <p><a href="join.html" class="fontPTsans join">Join Us</a></p>
-            <p class="fontNanum">Discover how to join the chamber of commerce <br>and how it will benefit your organization!</p>
-        </section>
-        <section id="spotlights">
-            <!--dynamic entry -->
-        </section>
+        <section></section>
     </main>
     <footer>
         <section class="footerSite">
@@ -111,6 +84,5 @@
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/spotlights.js"></script>
 </body>
 </html>
