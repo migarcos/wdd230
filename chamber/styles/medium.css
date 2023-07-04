@@ -96,6 +96,10 @@
 
     .hover:hover {box-shadow: 0 2px 30px #d3932bdf;}
 
+    main section.contacthead > p {
+        font-size: 2rem;
+    }
+
     /* FOOTER */
     .footerSite {
         display: grid;

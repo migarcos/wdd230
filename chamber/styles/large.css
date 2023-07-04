@@ -104,4 +104,30 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr;
     }
+
+    /* ----------  Contact  ------------ */
+    main {
+        grid-template-rows: 200px 1fr;
+    }
+    main section.contacthead {
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+    main section.contacthead > p {
+        grid-area: 1/1/2/2;
+        font-size: 2rem;
+    }
+
+    main section.contactform {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: auto;
+        margin: 1.3rem;
+    }
+    main section.contactinfo {
+        grid-column: 2/-1;
+        grid-row: 2/3;
+        height: auto;
+        margin: 1.3rem;
+    }
 }
