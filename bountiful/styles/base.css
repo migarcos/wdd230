@@ -315,3 +315,25 @@ footer section.rights p{
     font-family: 'Playfair Display', serif;
     color: white;
 }
+
+section.about {
+    padding: 3rem 0px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+main section.about article {
+    width: 100%;
+    max-width: 500px;
+    padding: auto;
+}
+main section.about article iframe, main section.about article img {
+    max-width:400px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px #111;
+}
+.infoCity2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFB7AA;
+}

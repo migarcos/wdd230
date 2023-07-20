@@ -2,11 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="historical information about the company and area plus contact information, and a Google Map and other relevant content.">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/middle.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Bountiful_Foods</title>
 </head>
 <body>
-    
+    <header> 
+        <!-- <img src="images/fruits01b.jpg" alt="image from www.goodhousekeeping.com/health/diet-nutrition/g28511617/healthiest-fruits/"> -->
+        <figure>
+            <img src="images/logo20.jpg" alt="Bountiful Logo">
+        </figure>
+        <nav id="headerNav">
+            <button id="menuBtn">&#9776;</button>
+            <ul id="menuItems">
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="fresh.html">FRESH</a> </li>
+                <li><a href="aboutus.html" class="active">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Bountiful Foods</h1>
+        <section class="boldfont"> 
+            <p>
+                <a href="fb.com"><img src="images/socialmedia/fb_rounded.png" alt="facebook https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/ig_rounded.png" alt="Instagram https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/yt_rounded.png" alt="Youtube https://www.flaticon.com"></a>
+            </p>
+            <a href="fresh.html" class="action">  Order Now </a>
+            
+        </section>
+        <!-- <img src="images/phone.png" alt="Icon by Dreamstale www.freepik.com/icons/white-phone"> -->
+    </header>
+
+    <!--  MAIN  -->
+    <main class="aboutMain">
+        <section class="carlsbad about">
+            <article class="infoCity">
+                <h2>Mission</h2>
+                <p>The mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas. The theme should support healthy eating, organic bounty, and convenience</p>
+                <!-- <p>If you love nature and wildlife, you can visit the Carlsbad State Beach, where you can swim, surf, fish, or admire the scenic views. You can also explore the Carlsbad Tide Pools, where you can discover different marine creatures and plants.</p> -->
+            </article>
+            <article class="picture">
+                <img src="images/salesman.jpg" alt="Rossella Fasoli from Pexels">
+            </article>
+        </section>
+        <section class="carlsbad about">
+            <article class="picture">
+                <img src="images/food-truck.jpg" alt="">
+            </article>
+            <article class="infoCity">
+                <p>The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks. </p>
+            </article>
+        </section>
+        <section class="carlsbad about">
+            <article class="infoCity2">
+                <h3>Public Atention</h3>
+                <p>Monday - Saturday</p>
+                <p>7 a.m. - 5 p.m.</p>
+                <p>&nbsp;</p>
+                <h3>ASK FOR A DELIVERY</h3>
+                <p>&nbsp;</p>
+                <h3>CALL US!</h3>
+                <h3>(760) 760-9999</h3>
+                <p></p>
+                <!-- <p>If you love nature and wildlife, you can visit the Carlsbad State Beach, where you can swim, surf, fish, or admire the scenic views. You can also explore the Carlsbad Tide Pools, where you can discover different marine creatures and plants.</p> -->
+            </article>
+            <article class="picture about">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.71876428889!2d-117.37020435554196!3d33.12163621002705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2sco!4v1689833064639!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+
+        
+        
+    </main>
+
+    <!--  FOOTER  -->
+    <footer>
+        <section></section>
+        <section class="footer_info">
+            <p>3368 Eureka Pl, Carlsbad</p>
+            <p>CA 92008, United States</p>
+            <p>(760) 760-9999</p>
+            <p> contact@bountiulfoods.com </p>
+            
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Fresh</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="https://www.carlsbadca.gov/" target="_blank">Carlsbad</a></li>
+            </ul>
+        </nav>
+        <section class="footer_logo">
+            <img src="images/logo28.jpg" alt="logo Boutiful Foods" class="radius50">
+            <h4 class="playFair">Boutiful Foods</h4>
+        </section>
+        <section class="rights">
+            <p>&copy;<span id="copyYear"></span> Boutiful Foods</p> 
+            <p class="boldfont">Miguel Arcos</p>
+            <p>BYU Idaho WDD230 Spring</p>
+            <p>Last modified: <span id="lastUpdate"></span></p>
+        </section>
+    </footer>
+
+    <script src="scripts/bountiful.js"></script>
 </body>
 </html>
