@@ -1,0 +1,60 @@
+https://wireframe.cc/nmOhsi
+
+Colors
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+Palette URL: http://paletton.com/#uid=42W0F0kleqtbzEKgVuIpcmGtdhZ
+http://paletton.com/#uid=42W0F0kllllaFw0g0qFqFg0w0aF
+
+
+https://fonts.google.com/specimen/Playfair+Display
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+font-family: 'Playfair Display', serif;
+
+https://fonts.google.com/specimen/Ysabeau+Infant
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+font-family: 'Ysabeau Infant', sans-serif;
+
+https://fonts.google.com/specimen/Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+font-family: 'Quicksand', sans-serif;
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+similarCARLSBAD
+
+https://www.citydirectory.us/city-carlsbad-california.html
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+https://www.sujaorganic.com/
+https://www.drinkjuiceco.com/
+https://plezi.com/
+https://www.drinklivingjuice.com/
+
+
+** https://blog.hubspot.com/marketing/best-website-designs-list
+
+https://muffingroup.com/blog/clean-websites/#:~:text=Minimalistic%20web%20site%20design%20consists%20of%20the%20following,textures%2C%20color%20transitions%2C%20shadows%3B%207%20no%20extra%20buttons
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * 
+Nutritional information and hero Image 
+https://www.goodhousekeeping.com/health/diet-nutrition/g28511617/healthiest-fruits/
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * 
+https://wallpapercave.com/fruit-juice-wallpapers#google_vignette
+
+Photo by Bashar Bazar: https://www.pexels.com/photo/tilt-shift-lens-photography-of-shake-756773/
+
+Photo by Roman Odintsov: https://www.pexels.com/photo/orange-juice-in-clear-drinking-glass-4958862/
+
+Photo by Maria Petersson: https://www.pexels.com/photo/clear-drinking-glass-with-green-juice-4663898/
+
+Photo by Element5 Digital: https://www.pexels.com/photo/strawberry-smoothie-on-glass-jar-775032/
+
+Photo by Bruno Scramgnon: https://www.pexels.com/photo/watermelon-shake-filled-glass-cup-beside-sliced-watermelon-fruit-on-brown-surface-1337825/
+
+Photo by PhotoMIX Company: https://www.pexels.com/photo/glass-of-lemon-juice-96620/
+
+Photo by Pixabay: https://www.pexels.com/photo/close-up-of-fruits-in-bowl-327098/
+
+Photo by alleksana: https://www.pexels.com/photo/close-up-photo-of-sliced-papaya-4113796/
+

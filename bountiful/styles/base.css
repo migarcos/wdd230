@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* http://paletton.com/#uid=42W0F0kllllaFw0g0qFqFg0w0aF */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;;    
+}
+nav ul { list-style: none;}
+a {
+    text-decoration: none;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #FFF;
+}
+.boldfont {
+    font-weight: 600;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* header, main{ */
+    /* border: 1px dotted red; */
+    /* height: 200px; only to test */
+/* } */
+
+/*  ------- HEADER -------  */
+header {
+    display: grid;
+    grid-template-columns: 1rem 110px 450px 1fr;
+    grid-template-rows: 1rem 2rem 130px;
+    /* background: #09692A; 09692A */
+    background-image: linear-gradient(rgba(85, 17, 62, 0.7), rgba(85, 17, 62, 0.4)),url("../images/fruits01.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #fad158; /*FFDAA3 rgb(255,217,102) */ 
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    margin: auto 0;
+    text-shadow: 3px 3px 2px #000; /* 003e15  41002c  550D00*/
+}
+header figure {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    margin: auto 0;
+}
+header figure img {
+    width: 100px;
+    border-radius: 50%;
+}
+header nav {
+    grid-column: 2/5;
+    grid-row: 2;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+header nav button {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;   
+    gap: 2rem;
+    /* border: 1px solid white; */
+}
+header nav ul li {
+    color: #FFF; /* D588BC */
+    width: 130px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+header nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    /* padding: 0px 1rem; */
+}
+header nav a:hover {
+    text-decoration: none;
+    color: #FFDAA3;
+    border-bottom: #FFDAA3 solid 3px;
+}
+header a.active {
+    background-color: #D39B47; /*rgb(85, 17, 62)*/
+    border-radius: 5px;
+    color: rgb(85, 17, 62);
+}
+header section {
+    grid-area: -1/-1/-2/-2;
+    margin: auto;
+    /* display: flex;
+    align-items: center; */
+    display: grid;
+    grid-template-rows: 3rem 1fr;
+    text-align: center;
+}
+header section a.action{
+    padding: 5px 10px;
+    background: #FFDAA3;
+    color: #09692A;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+}
+header section a.action:hover {
+    background: #09692A;
+    color: #fff;
+    font-weight: bold;
+}
+header section img {
+    height: 2rem;
+    width: 2rem;
+}
+header section p {
+    margin: 0 2rem;
+}
+
+/* - - - - -  MAIN - - - - -  */
+main {
+    /* background: hsla(36, 87%, 71%, 0.501); */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main section.kinds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1em;
+    min-width: 900px;
+}
+main section.kinds article {
+    border: solid 1px #09692A;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 5px 5px 4px #868383;
+    min-width: 200px;
+}
+main section.kinds article h3 {
+    color:#fad158;
+    background-color: #09692A;
+    padding: 1rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+main section.kinds article p{
+    padding: 1rem;
+    margin: 1rem;
+}
+main section.kinds article a {
+    border: #6D0A4D solid 2px;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: #6D0A4D; /* #8F200C */ 
+}
+main section.kinds article a:hover{
+    border: #09692A solid 2px;
+    color: #075221; /* #8F200C BB589B*/ 
+    font-weight: 700;
+    background: #85D09E;
+}
+main section.kinds article img {
+    width: 250px;
+}
+
+main section.half  {
+    background-color: #bb589c8c; /*F58773  */
+}
+
+main section#city {
+    background-color: rgba(245, 193, 115, 0.7);
+    display: grid;
+    grid-template-columns: 2rem 400px 1fr 2rem;
+    padding: 2rem 0;
+}
+main section.city article {
+    margin: 1rem;
+    border: 2px solid #09692A;
+    border-radius: 1rem;
+}
+main section.city article#weather {
+    grid-column: 2/3;
+    background: #FFFFFF55;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5.5rem auto 1fr;
+    text-align: center;
+    margin: auto 1rem;
+}
+main section.city article#weather h3 {
+    grid-row: 1;
+    grid-column: 1/-1;
+    padding: 1rem;
+    background: #09692A;/*  6D0A4D*/
+    color: #FFF;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+main section.city article#weather h2 {
+    font-size: 2rem;
+    margin: auto;
+}
+main section.city article#weather figure {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+div#forecast {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+}
+div#forecast article {
+    width: 11em;
+    padding: 5px;
+}
+
+main section.city article#cityInfo {
+    grid-column: 3/4;
+    text-align: center;
+    border: 0;
+    box-shadow: 4px 4px 6px #09692A;
+}
+main section.city article#cityInfo img {
+    width: 97%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+main section.carlsbad {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #6D0A4D;
+}
+main section.carlsbad article {
+    width: 100%;
+    margin: auto;
+}
+main section.carlsbad article.picture {
+    width: 100%;
+}
+main section.carlsbad article.infoCity {
+    padding: 2rem;
+    color: white;    
+}
+main section.carlsbad article.infoCity p {
+    font-size: 1.5rem;
+}
+/* - - - - -  FOOTER - - - - -  */
+footer {
+    border-top: #55113e solid 5px;
+    /* https://www.w3schools.com/colors/colors_gradient.asp */
+    background: linear-gradient(to bottom, #297C45 5%, #012b0f 100%); /* 8A1D66 6D0A4D     09692A */
+    display: grid;
+    grid-template-rows: 2rem 1fr 5rem;
+    grid-template-columns: 2rem 5fr 4fr 5fr 120px 2rem;
+    color: #fad158;
+}
+footer section.footer_info{
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: hsla(140, 100%, 12%, 0.2);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+footer nav {
+    grid-area: 2/3/3/4;
+    color: #fff;
+    margin: auto auto;
+    background-color: hsla(140, 100%, 12%, 0.2);
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
+footer section.footer_logo  {
+    grid-column: -2/-3;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer section.footer_logo img {
+    width: 60px;
+}
+footer section.rights {
+    border-top: #fad158 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2/6;
+    grid-row: 3;
+    justify-content: center;
+}
+footer section.rights p{
+    margin: 1rem 1rem;
+    color: white;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+.playFair {
+    font-family: 'Playfair Display', serif;
+    color: white;
+}

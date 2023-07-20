@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bountiful Main page ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/middle.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Bountiful_Foods</title>
+</head>
+<body>
+    <header> 
+        <!-- <img src="images/fruits01b.jpg" alt="image from www.goodhousekeeping.com/health/diet-nutrition/g28511617/healthiest-fruits/"> -->
+        <figure>
+            <img src="images/logo20.jpg" alt="Bountiful Logo">
+        </figure>
+        <nav id="headerNav">
+            <button id="menuBtn">&#9776;</button>
+            <ul id="menuItems">
+                <li><a href="index.html" class="active">HOME</a> </li>
+                <li><a href="fresh.html">FRESH</a> </li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Bountiful Foods</h1>
+        <section class="boldfont"> 
+            <p>
+                <a href="fb.com"><img src="images/socialmedia/fb_rounded.png" alt="facebook https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/ig_rounded.png" alt="Instagram https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/yt_rounded.png" alt="Youtube https://www.flaticon.com"></a>
+            </p>
+            <a href="fresh.html" class="action">  Order Now </a>
+            
+        </section>
+        <!-- <img src="images/phone.png" alt="Icon by Dreamstale www.freepik.com/icons/white-phone"> -->
+    </header>
+
+    <!--  MAIN  -->
+    <main>
+        <section id="kinds" class="kinds">
+            <article>
+                <h3 class="boldfont">FRUIT JUICE</h3>
+                <img src="images/juices/pexels-photomix-company-96620a.jpg" alt="Photo by PhotoMIX Company">
+                <p><a href="fresh.html">Order Now</a></p>
+            </article>
+            <article>
+                <h3 class="boldfont">VEGETAL JUICE</h3>
+                <img src="images/juices/pexels-maria-petersson-4663898.jpg" alt="Photo by Maria Petersson">
+                <p><a href="fresh.html">Order Now</a></p>
+            </article>
+            <article class="kind3">
+                <h3 class="boldfont">MIX JUICE</h3>
+                <img src="images/juices/pexels-alexander-mils-1150682.jpg" alt="Photo by Alexander Mils">
+                <p><a href="fresh.html">Order Now</a></p>
+            </article>
+        </section>
+        <!-- <section id="half" class="half">
+            <article>  one </article>
+            <article> two</article>
+        </section> -->
+        <section id="city" class="city">
+            <article id="weather">
+                <h3>CARLSBAD WEATHER</h3>
+                <h2><span  id="current-temp"></span>°C</h2>
+                
+                <figure>
+                    <figcaption id="figcaption" class="boldfont"></figcaption>
+                    <img src="" alt="" id="weather-icon">
+                    
+                </figure>
+                <p  class="boldfont">Humidity: <span id="w-humidity"></span>%</p>
+                <div id="forecast"> 
+                    <article><h4 id="date1">Thursday </h4><p><span id="temp1">21</span>°C</p></article>
+                    <article><h4 id="date2">Friday </h4><p><span id="temp2">20</span>°C</p></article>
+                    <article><h4 id="date3">Saturday </h4><p><span id="temp3">20</span>°C</p></article>
+                </div>               
+            </article>
+            <article id="cityInfo">
+                <img src="images/beach.jpg" alt="Beach picture from Google">
+            </article>
+        </section>
+        <section class="carlsbad">
+            <article class="picture">
+                <img src="images/village.jpg" alt="">
+            </article>
+            <article class="infoCity">
+                <p>Carlsbad is a coastal city in San Diego County, California, with a rich history, natural beauty, and plenty of attractions. There are many places to explore and many things to do in Carlsbad.</p>
+            </article>
+        </section>
+        <section class="carlsbad">
+            <article class="infoCity">
+                <p>As you can see, Carlsbad is a coastal gem that offers something for everyone. Whether you are traveling with your family, friends, or solo, you will find plenty of ways to enjoy this charming and unforgettable city.</p>
+                <!-- <p>If you love nature and wildlife, you can visit the Carlsbad State Beach, where you can swim, surf, fish, or admire the scenic views. You can also explore the Carlsbad Tide Pools, where you can discover different marine creatures and plants.</p> -->
+            </article>
+            <article class="picture">
+                <img src="images/street.jpg" alt="">
+            </article>
+        </section>
+    </main>
+
+    <!--  FOOTER  -->
+    <footer>
+        <section></section>
+        <section class="footer_info">
+            <p>3368 Eureka Pl, Carlsbad</p>
+            <p>CA 92008, United States</p>
+            <p>(760) 760-9999</p>
+            <p> contact@bountiulfoods.com </p>
+            
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Fresh</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="https://www.carlsbadca.gov/" target="_blank">Carlsbad</a></li>
+            </ul>
+        </nav>
+        <section class="footer_logo">
+            <img src="images/logo28.jpg" alt="logo Boutiful Foods" class="radius50">
+            <h4 class="playFair">Boutiful Foods</h4>
+        </section>
+        <section class="rights">
+            <p>&copy;<span id="copyYear"></span> Boutiful Foods</p> 
+            <p class="boldfont">Miguel Arcos</p>
+            <p>BYU Idaho WDD230 Spring</p>
+            <p>Last modified: <span id="lastUpdate"></span></p>
+        </section>
+    </footer>
+
+    <script src="scripts/bountiful.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
