@@ -1,13 +1,124 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful form that allows the user to build their own specialty drink. ">
-    <title>ABOUT US</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/middle.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Bountiful form that allows the user to build their own specialty drink. ">
+    <title>FRESH</title>
 </head>
 <body>
-    
+    <header> 
+        <!-- <img src="images/fruits01b.jpg" alt="image from www.goodhousekeeping.com/health/diet-nutrition/g28511617/healthiest-fruits/"> -->
+        <figure>
+            <img src="images/logo20.jpg" alt="Bountiful Logo">
+        </figure>
+        <nav id="headerNav">
+            <button id="menuBtn">&#9776;</button>
+            <ul id="menuItems">
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="fresh.html"  class="active">FRESH</a> </li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Bountiful Foods</h1>
+        <section class="boldfont"> 
+            <p>
+                <a href="fb.com"><img src="images/socialmedia/fb_rounded.png" alt="facebook https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/ig_rounded.png" alt="Instagram https://www.flaticon.com"></a>
+                <a href="aboutus.html"><img src="images/socialmedia/yt_rounded.png" alt="Youtube https://www.flaticon.com"></a>
+            </p>
+            <a href="fresh.html" class="action">  Order Now </a>
+            
+        </section>
+        <!-- <img src="images/phone.png" alt="Icon by Dreamstale www.freepik.com/icons/white-phone"> -->
+    </header>
+
+    <!--  MAIN  -->
+    <main class="fresh">
+        <section id="freshimage">
+            <img src="images/juices/pexels-bruno-scramgnon-1337825.jpg" alt="">
+        </section>
+        <section id="report">
+            <article>
+                <h3>ORDER REPORT</h3>
+                <p>Date: <span id="repDate"></span></p>
+                <p>Client: <span id="repName"></span> <span id="repLastN"></span></p>
+                <p>Email: <span id="repMail"></span></p>
+                <p>Cell Number: <span id="repCel"></span></p>
+                <p>Ingredient 1: <span id="repIngr1"></span></p>
+                <p>Ingredient 2: <span id="repIngr2"></span></p>
+                <p>Ingredient 3: <span id="repIngr3"></span></p>
+                <p>Special instructions: <span id="repInstr"></span></p>
+                <h3>Nutricional Facts</h3>
+                <p>Carbohydrates: <span id="repCarb"></span></p>
+                <p>Protein: <span id="repProt"></span> <span id="repLastN"></span></p>
+                <p>Fat: <span id="repFat"></span></p>
+                <p>Sugar: <span id="repSug"></span></p>
+                <p>Calories: <span id="repCal"></span></p>
+            </article>
+       </section>
+       <section id="order">
+            <form action="">
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    <label class="top">First Name * <input type="text" name="fname" id="ffname" required placeholder="John"></label>
+                    <label class="top">Last Name * <input type="text" name="lname" id="flname" required placeholder="Doe"></label>
+                    
+                    <label class="top">email <input type="email" name="email" id="femail" placeholder="usrmail@webname.com"></label>
+                    <label class="top">Cell number * <input type="tel" name="phone" id="fcel" required placeholder="XXXYYYZZZZ"  pattern="[0-9]{10,}"></label>
+                    
+                    <input type="hidden" id="fdate" name="fdate">
+                </fieldset>
+        
+                <fieldset>            
+                    <legend>Select Ingredients</legend>
+                    <label class="top">Ingredient #1 <select name="fruit1" id="fruit1" required></select></label>
+                    <label class="top">Ingredient #2  <select name="fruit2" id="fruit2" ></select></label>
+                    <label class="top">Ingredient #3  <select name="fruit3" id="fruit3" ></select></label>
+                    <label class="top">Special instructions: <textarea name="orderInstr" placeholder="To take care about" rows="4"> </textarea></label>
+                </fieldset>
+                
+                <input type="submit" value="Build Drink" class="submitBtn">
+            </form>        
+       </section>
+       
+    </main>
+
+    <!--  FOOTER  -->
+    <footer>
+        <section></section>
+        <section class="footer_info">
+            <p>3368 Eureka Pl, Carlsbad</p>
+            <p>CA 92008, United States</p>
+            <p>(760) 760-9999</p>
+            <p> contact@bountiulfoods.com </p>
+            
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.htmlS">About Us</a></li>
+                <li><a href="https://www.carlsbadca.gov/" target="_blank">Carlsbad</a></li>
+            </ul>
+        </nav>
+        <section class="footer_logo">
+            <img src="images/logo28.jpg" alt="logo Boutiful Foods" class="radius50">
+            <h4 class="playFair">Boutiful Foods</h4>
+        </section>
+        <section class="rights">
+            <p>&copy;<span id="copyYear"></span> Boutiful Foods</p> 
+            <p class="boldfont">Miguel Arcos</p>
+            <p>BYU Idaho WDD230 Spring</p>
+            <p>Last modified: <span id="lastUpdate"></span></p>
+        </section>
+    </footer>
+
+    <script src="scripts/bountiful.js"></script>
+    <script src="scripts/fresh.js"></script>
 </body>
 </html>
