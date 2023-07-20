@@ -257,9 +257,115 @@ main section.carlsbad article.infoCity {
 main section.carlsbad article.infoCity p {
     font-size: 1.5rem;
 }
+
+section.about {
+    padding: 3rem 0px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+/* - - - - -  about us over main - - - - -  */
+main section.about article {
+    width: 100%;
+    max-width: 500px;
+    padding: auto;
+}
+main section.about article iframe, main section.about article img {
+    max-width:400px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px #111;
+}
+.infoCity2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFB7AA;
+}
+
+/* - - - - -  fresh form - - - - -  */
+main.fresh {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+main.fresh section#freshimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #85d09eaa;
+}
+main.fresh section#freshimage image {
+    margin: 0 auto;
+    height: 80%;
+}
+main.fresh section#order {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    /* border: 3px dotted green; */
+}
+main.fresh section#order form, margin.fresh section img{
+    /* border: 1px red solid; */
+    margin: 0 auto;
+    width: 400px;
+    min-width: 250px;
+}
+main form fieldset {
+    border: #09692A 2px solid;
+    margin: 2rem 1rem;
+    border-radius: 0px;
+    padding: 0.8rem 1rem;
+    height: auto;
+}
+main form label.top {
+    display: block;    
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+form label.top input, form label.top select, form textarea {
+    display: block;
+    width: 100%;
+    border: solid 1px var(--accent2-color);
+    border-radius: 0px;
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+form input.submitBtn {
+    margin: 0 1rem 2rem 60%; 
+    border: 2px solid #09692A;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    color: #09692A;
+    font-weight: bolder;
+}
+form input.submitBtn:hover {
+    background-color: #09692A;
+    border: 2px solid #09692A;
+    color: #fff;
+}
+main.fresh section#report {
+    width: 100%;
+    background-color: #85d09eaa;
+    padding: 1rem;
+    text-align: center;
+}
+main.fresh section#report article {
+    display: none;
+    border: 1px solid;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+main.fresh section#report article h3 {
+    margin: 0.5rem;
+}
+main.fresh section#report article p {
+    padding: 5px;
+}
 /* - - - - -  FOOTER - - - - -  */
 footer {
-    border-top: #55113e solid 5px;
+    border-top: #282125 solid 5px;
     /* https://www.w3schools.com/colors/colors_gradient.asp */
     background: linear-gradient(to bottom, #297C45 5%, #012b0f 100%); /* 8A1D66 6D0A4D     09692A */
     display: grid;
@@ -316,24 +422,3 @@ footer section.rights p{
     color: white;
 }
 
-section.about {
-    padding: 3rem 0px;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-main section.about article {
-    width: 100%;
-    max-width: 500px;
-    padding: auto;
-}
-main section.about article iframe, main section.about article img {
-    max-width:400px;
-    margin: 0 auto;
-    box-shadow: 3px 3px 10px #111;
-}
-.infoCity2 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FFB7AA;
-}
