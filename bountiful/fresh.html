@@ -43,7 +43,7 @@
             <img src="images/juices/pexels-bruno-scramgnon-1337825.jpg" alt="">
         </section>
         <section id="report">
-            <article>
+            <article id="orderReport">
                 <h3>ORDER REPORT</h3>
                 <p>Date: <span id="repDate"></span></p>
                 <p>Client: <span id="repName"></span> <span id="repLastN"></span></p>
@@ -62,11 +62,11 @@
             </article>
        </section>
        <section id="order">
-            <form action="">
+            <form method="get" id="orderform">
                 <fieldset>
                     <legend>Personal Data</legend>
-                    <label class="top">First Name * <input type="text" name="fname" id="ffname" required placeholder="John"></label>
-                    <label class="top">Last Name * <input type="text" name="lname" id="flname" required placeholder="Doe"></label>
+                    <label class="top">First Name * <input type="text" name="fname" id="fname" required placeholder="John"></label>
+                    <label class="top">Last Name * <input type="text" name="lname" id="lname" required placeholder="Doe"></label>
                     
                     <label class="top">email <input type="email" name="email" id="femail" placeholder="usrmail@webname.com"></label>
                     <label class="top">Cell number * <input type="tel" name="phone" id="fcel" required placeholder="XXXYYYZZZZ"  pattern="[0-9]{10,}"></label>
