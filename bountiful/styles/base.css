@@ -191,7 +191,7 @@ main section.city article#weather {
     background: #FFFFFF55;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5.5rem auto 1fr;
+    grid-template-rows: 5.5rem 1fr 1fr;
     text-align: center;
     margin: auto 1rem;
 }
