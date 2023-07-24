@@ -41,7 +41,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        // console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -55,7 +55,7 @@ async function apiFetch2() {
       const response = await fetch(forecast);
       if (response.ok) {
         const data2 = await response.json();
-        console.log(data2); // this is for testing the call
+        // console.log(data2); // this is for testing the call
         displayResults2(data2);
       } else {
           throw Error(await response.text());
